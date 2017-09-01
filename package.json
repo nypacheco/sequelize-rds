@@ -1,0 +1,30 @@
+{
+  "name": "sequelize-rds",
+  "version": "1.0.0",
+  "description": "This is a test to create CRUD using sequelize and RDS",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nypacheco/sequelize-rds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nypacheco/sequelize-rds/issues"
+  },
+  "homepage": "https://github.com/nypacheco/sequelize-rds#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.15.4",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.8.0"
+  }
+}
